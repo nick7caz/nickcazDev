@@ -1,4 +1,4 @@
-import {Container, Heading, SimpleGrid, Divider,Box } from '@chakra-ui/react'
+import {Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/work-grid'

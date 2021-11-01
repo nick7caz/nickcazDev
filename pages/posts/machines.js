@@ -13,20 +13,20 @@ const Post = () => (
             <Box>
                 <SimpleGrid columns={[1,1,2]} gap={10}>
                     <UnorderedList>
-                        <Heading fontSize={25}>Main Machine: 2009 Mac Pro "Cheese Grater"</Heading>
+                        <Heading fontSize={25}>Main Machine: 2009 Mac Pro </Heading>
                         <ListItem>Flashed firmware to 5,1</ListItem>
                         <ListItem>2 x 3.33 GHz 6 Core Xeon</ListItem>
                         <ListItem>32gb Ram</ListItem>
                         <ListItem>RX 850 8GB</ListItem>
                         <ListItem>I purchased this machine last year and gave it a few upgrades, such as, the CPUs, new ssds, firmware, and have it running Catalina.</ListItem>
-                        <Image src="/images/machines/macpro.jpeg"></Image>
+                        <Image src="/images/machines/macpro.jpeg" alt="macpro"></Image>
                     </UnorderedList>
                     <UnorderedList>
                         <Heading fontSize={25}>Windows Machine: Lenovo Legion Y740</Heading>
                         <ListItem>Intel i7-9750H 6 core</ListItem>
                         <ListItem>16gb Ram</ListItem>
                         <ListItem>NVIDIA GTX 1661 Ti</ListItem>
-                        <Image src="/images/machines/lenovo.jpeg"></Image>
+                        <Image src="/images/machines/lenovo.jpeg" alt="windows machine"></Image>
                         
                     </UnorderedList>
                     <UnorderedList>

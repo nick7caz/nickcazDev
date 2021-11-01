@@ -1,27 +1,13 @@
-import { Container, Box, Button, Stack, Text, Link, Icon } from '@chakra-ui/react'
+import {  Box, Text } from '@chakra-ui/react'
 import React from 'react';
-import NextLink from 'next/link'
-import { IoLogoGithub, IoLogoInstagram } from 'react-icons/io5'
 
 
 
 const Footer = () => (
-
-  <Box mt={20} mt={20} >
+  <Box mt={20}>
     <Text fontSize="xl" mt={12} fontWeight="bold" textAlign="center">
       Nick Caz Dev
-      <Link 
-        href="https://instagram.com/nickcazdev"
-        target="_blank">
-        <Button
-        alignContent="center"
-          variant="ghost"
-          colorScheme="red"
-          leftIcon={<Icon as={IoLogoInstagram} />}
-        >
-          @nickcazdev
-        </Button>
-      </Link>
+     
     </Text>
     <Text
       fontSize="lg"

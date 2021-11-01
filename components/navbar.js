@@ -1,9 +1,9 @@
 import Logo from './logo'
 import NextLink from 'next/link'
-import {Container, Box, Link, Stack, Heading, Flex, Menu, MenuItem, MenuList, MenuButton, IconButton, useColorModeValue} from '@chakra-ui/react'
+import {Container, Box, Button, Icon, Link, Stack, Heading, Flex, Menu, MenuItem, MenuList, MenuButton, IconButton, useColorModeValue} from '@chakra-ui/react'
 import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoInstagram } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -40,13 +40,13 @@ const Navbar = props => {
       <Container
         display="flex"
         p={2}
-        maxW="container.md"
+        maxW="container.lg"
         wrap="wrap"
         align="center"
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+          <Heading as="h1" size="lg" letterSpacing={'tighter'} ml={2}>
             <Logo />
           </Heading>
         </Flex>
@@ -77,6 +77,18 @@ const Navbar = props => {
             <IoLogoGithub />
             My Github
           </LinkItem>
+          <Link 
+        href="https://instagram.com/nickcazdev"
+        target="_blank">
+        <Button
+        alignContent="center"
+          variant="ghost"
+          colorScheme="red"
+          leftIcon={<Icon as={IoLogoInstagram} />}
+        >
+          @nickcazdev
+        </Button>
+      </Link>
         </Stack>
 
         <Box flex={1} align="right">
@@ -104,6 +116,10 @@ const Navbar = props => {
                   as={Link}
                   href="https://github.com/nick7caz">
                   My Github
+                </MenuItem>
+                <MenuItem as={Link}
+                href="https://instagram/nickcazdev">
+                  My Instagram
                 </MenuItem>
               </MenuList>
             </Menu>

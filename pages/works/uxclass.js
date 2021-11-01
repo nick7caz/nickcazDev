@@ -1,6 +1,6 @@
-import {Container, Box, SimpleGrid, List, ListItem, Image, UnorderedList, Heading, Spacer} from '@chakra-ui/react'
+import {Container, Box, SimpleGrid, ListItem, Image, UnorderedList, Heading} from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import {Title, WorkImage, Meta} from '../../components/work'
+import {Title} from '../../components/work'
 import P from '../../components/paragraph'
 
 
@@ -36,10 +36,10 @@ const Work = () =>(
                 <Heading pt={10}> These are some wireFrames that I worked on in the course</Heading>
                 <P> I also had these wireframes hooked up in a prototyping enviornment</P>
             <SimpleGrid columns={[1,1,2]} gap={10} pt={10}>
-                <Image src="/images/uxCourse/bfHome.png"></Image>
-                <Image src="/images/uxCourse/CourseInfo.png"></Image>
-                <Image src="/images/uxCourse/Home.png"></Image>
-                <Image src="/images/uxCourse/Learning.png"></Image>        
+                <Image src="/images/uxCourse/bfHome.png" alt="home"></Image>
+                <Image src="/images/uxCourse/CourseInfo.png" alt="courseinfo"></Image>
+                <Image src="/images/uxCourse/Home.png" alt="home"></Image>
+                <Image src="/images/uxCourse/Learning.png" alt="learning"></Image>        
             </SimpleGrid>
             </Container>
 

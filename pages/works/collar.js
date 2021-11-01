@@ -1,6 +1,6 @@
-import {Container, Box, SimpleGrid, List, ListItem, Image, UnorderedList, Heading, Spacer} from '@chakra-ui/react'
+import {Container, Box, SimpleGrid, ListItem, Image, UnorderedList, Heading} from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import {Title, WorkImage, Meta} from '../../components/work'
+import {Title, WorkImage} from '../../components/work'
 import P from '../../components/paragraph'
 
 
@@ -35,12 +35,12 @@ const Work = () => (
                 </Box>
             </SimpleGrid>
             <SimpleGrid columns={[1,1,2]} gap={10} pt={10}>
-                <Image src="/images/collar/login.png"></Image>
-                <Image src="/images/collar/profile.png"></Image>
-                <Image src="/images/collar/drawer.png"></Image>
-                <Image src="/images/collar/matches.png"></Image>
-                <Image src="/images/collar/messages.png"></Image>
-                <Image src="/images/collar/matched.png"></Image>
+                <Image src="/images/collar/login.png" alt="login"></Image>
+                <Image src="/images/collar/profile.png" alt="profile"></Image>
+                <Image src="/images/collar/drawer.png" alt="drawer"></Image>
+                <Image src="/images/collar/matches.png" alt="matches"></Image>
+                <Image src="/images/collar/messages.png" alt="messages"></Image>
+                <Image src="/images/collar/matched.png" alt="matched"></Image>
 
             </SimpleGrid>
 

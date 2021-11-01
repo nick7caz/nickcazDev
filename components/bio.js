@@ -1,5 +1,4 @@
-import { Container, Box, List, ListItem, UnorderedList, Image, Center, Divider, Heading, 
-    SimpleGrid,
+import { Container, Box, ListItem, UnorderedList, Image, Center, Divider, Heading, 
     Accordion,
     AccordionItem,
     AccordionButton,

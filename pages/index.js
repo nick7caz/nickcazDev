@@ -1,9 +1,6 @@
 import {Container, Box, Heading } from '@chakra-ui/react'
-import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
-import Section from '../components/section'
 import Bio from '../components/bio'
-import Footer from '../components/footer'
 
 const Home = () => {
     return(
