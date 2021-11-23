@@ -84,7 +84,7 @@ the web application using Node.js, ExpressJS together with database
 support using MongoDB.</p></ListItem>
                     <ListItem><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RWXBHAJCCR4F">Certificate</a></ListItem>
                 </UnorderedList>
-                <Heading size="sm">Google UX Desgin Professional Certificate</Heading>
+                <Heading size="sm">Google UX Design Professional Certificate</Heading>
                 <Divider variant='solid'/>
                 <UnorderedList pb={5}>
                     <ListItem>Completed: July 2021</ListItem>
