@@ -14,7 +14,7 @@ const Bio = () => (
             <Image
                 borderRadius="10px"
                 boxSize="200px"
-                src="/images/portrait.jpeg"
+                src="/images/portrait.png"
                 alt="Nicholas Cavazos"
                 objectFit="cover"
             />
