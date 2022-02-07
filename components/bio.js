@@ -72,6 +72,15 @@ const Bio = () => (
                 <AccordionIcon/>
                     </AccordionButton>
                     <AccordionPanel>
+                    <Heading size='sm'>The Ultimate MySQL Bootcamp</Heading>
+            <Divider variant='solid'/>
+                <UnorderedList pb={5}>
+                    <ListItem>Completed: January 2022</ListItem>
+                    <ListItem>Issued By: Udemy</ListItem>
+                    <ListItem>Description:<p>Become an In-demand SQL Master by creating complex databases and building reports through real-world projects</p></ListItem>
+                    <ListItem><a href="https://www.udemy.com/certificate/UC-0f604e58-66f8-4754-b5be-d3f398a073eb/">Certificate</a></ListItem>
+                </UnorderedList>
+                <Divider variant='solid'/>
             <Heading size='sm'>Full-Stack Web Development with React</Heading>
             <Divider variant='solid'/>
                 <UnorderedList pb={5}>
