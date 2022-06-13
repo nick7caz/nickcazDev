@@ -85,7 +85,7 @@ const Bio = () => (
             <Divider variant='solid'/>
                 <UnorderedList pb={5}>
                     <ListItem>Completed: October 2021</ListItem>
-                    <ListItem>Issued By: Coursera, The Honk Kong University of Science and Technology</ListItem>
+                    <ListItem>Issued By: Coursera, The Hong Kong University of Science and Technology</ListItem>
                     <ListItem>Description:<p>In this specialization you learnt to (1) Design a full-fledged Web client
 application using Bootstrap 4 and React, (2) Design a hybrid mobile
 application using React Native, and (3) Develop server-side support for
