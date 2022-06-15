@@ -26,6 +26,7 @@ const Bio = () => (
                     <ListItem>Home Town: Paradise, CA</ListItem>
                     <ListItem>Currently Living in Santa Cruz, CA</ListItem>
                     <ListItem>Studied Economics and Pre-law at Californina State University Bakersfield</ListItem>
+                    <ListItem>Current Systems Specialist</ListItem>
                 </UnorderedList>
                 <p>
                 My work background has been in sales for the past ten years.  Mostly with car sales and real estate.  During the course of this pandemic, I have had the opportunity 
