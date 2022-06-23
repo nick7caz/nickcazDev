@@ -26,12 +26,12 @@ const Bio = () => (
                     <ListItem>Home Town: Paradise, CA</ListItem>
                     <ListItem>Currently Living in Santa Cruz, CA</ListItem>
                     <ListItem>Studied Economics and Pre-law at Californina State University Bakersfield</ListItem>
-                    <ListItem>Current Systems Specialist</ListItem>
+                    <ListItem>Current Systems Specialist with Santa Cruz City Schools</ListItem>
                 </UnorderedList>
                 <p>
                 My work background has been in sales for the past ten years.  Mostly with car sales and real estate.  During the course of this pandemic, I have had the opportunity 
                 to shift gears and dive into a field that has held a curiosity in my mind.
-                I started with learning Flutter late in 2020, in order to code and designed my own app. I have been learning more and more in this field and enjoy it more each day.
+                I started with learning Flutter in 2020, to code and design my own app. I have been learning more and more and enjoy it more each day.
                 </p>
 
             </Container>
